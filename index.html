@@ -69,7 +69,7 @@
 					<li class="menu-item active" data-target="#body"><a href="javascript:;">Home</a></li>
 					<li class="menu-item active" data-target="#database"><a href="javascript:;">지원 DB</a></li>
 					<li class="menu-item active" data-target="#browser"><a href="javascript:;">지원 브라우저</a></li>
-					<li class="download-btn" mode="download"><a href="javascript:;">다운로드</a></li>
+					<li class="download-btn" mode="releases"><a href="javascript:;">Releases</a></li>
 					<li class="download-btn" mode="git"><a href="javascript:;">Git</a></li>
 					<li class="menu-item" data-target="#support"><a href="javascript:;">문의</a></li>
 				</ul>
@@ -92,8 +92,8 @@
 			</h2>
 			<div>
 				<a href="javascript:;" class="btn-movie" data-target="#movie">소개 영상보기</a>
-				<a href="javascript:;" mode="download" class="btn-download download-btn scrollto">Releases</a>
-				<a href="https://github.com/varsqlinfo/varsql/wiki#%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95"	target="_blank" class="btn-download scrollto">설치방법</a>
+				<a href="javascript:;" mode="latest" class="btn-download download-btn">최신버전</a>
+				<a href="javascript:;" mode="setup" class="btn-download download-btn">설치방법</a>
 				
 			</div>
 		</div>
@@ -217,7 +217,7 @@
 			
 			<div class="support-item">
 				<label>Q&A</label><br/>
-				<a href="https://github.com/varsqlinfo/varsql-page/issues" target="_blank">git 이슈</a>
+				<a href="https://github.com/varsqlinfo/varsql/issues" target="_blank">git 이슈</a>
 			</div>
         </div>  
 	 </div>
@@ -299,9 +299,18 @@ $(function (){
 		if(mode=='git'){
 			sendInfo = 'git';
 			window.open("https://github.com/varsqlinfo/varsql","","");
-		}else{
-			window.open("https://github.com/varsqlinfo/varsql-page/releases","","");
+		}else if(mode=='releases'){
+			sendInfo = 'releases';
+			window.open("https://github.com/varsqlinfo/varsql/releases","","");
+		}else if(mode=='setup'){
+			sendInfo = 'setup';
+			window.open("https://github.com/varsqlinfo/varsql/wiki#%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95","","");
+		}else if(mode=='latest'){
+			sendInfo = 'latest';
+			window.open("https://github.com/varsqlinfo/varsql/releases/latest","","");
 		}
+
+		
 
 		ga('send', 'event', 'main','button',sendInfo,1);
 
