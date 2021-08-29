@@ -44,7 +44,7 @@
 		<div class="header">
 			<div class="container clearfix">
 				<div class="contact-info float-right">
-					
+
 					<span >
 						<a href="mailto:varsqlinfo@gmail.com"><i class="fa fa-envelope-o"></i> varsqlinfo@gmail.com</a>
 					</span>
@@ -82,19 +82,19 @@
 
 	<!-- intro  -->
 	<div id="intro">
-		<div class="intro-bg"></div>	
+		<div class="intro-bg"></div>
 		<div class="intro-content">
 			<h2>
 				Varsql은 DB client tool <br/>
 				<span> 설치없이 웹으로</span> 데이타 베이스를 접속 하여<br/>
-				쿼리를 실행할수 있는 위한 어플리케이션 입니다. 
+				쿼리를 실행할수 있는 위한 어플리케이션 입니다.
 
 			</h2>
 			<div>
 				<a href="javascript:;" class="btn-movie" data-target="#movie">소개 영상보기</a>
 				<a href="javascript:;" mode="latest" class="btn-download download-btn">최신버전</a>
 				<a href="javascript:;" mode="setup" class="btn-download download-btn">설치방법</a>
-				
+
 			</div>
 		</div>
 
@@ -109,13 +109,13 @@
 		  </h2>
           <p></p>
 				</div>
-		
+
 		<div class="movie-content">
-			<iframe width="100%" src="https://www.youtube.com/embed/yeC7K3gqTi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>     
+			<iframe width="100%" src="https://www.youtube.com/embed/uCqVsRysOQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
 		<div class="movie-content">
 			<iframe width="100%" src="https://www.youtube.com/embed/ggJ1r5XNSIE?autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>     
+		</div>
 	 </div>
 	</section>
 
@@ -153,18 +153,18 @@
 				<li>
 					<i class="fa fa-database fa-lg"></i>
 					<span style="color:black;font-weight:bold;">Postgre<span style="color:#20578c;">SQL</span></span>
-				</li>	
+				</li>
 				<li>
 					<i class="fa fa-database fa-lg"></i>
 					<span style="color:black;font-weight:bold;">CUBRID</span>
-				</li>	
+				</li>
 				<li>
 					<i class="fa fa-database fa-lg"></i>
 					<span style="color:black;font-weight:bold;">Tibero</span>
 				</li>
-				
+
 			</ul>
-        </div>  
+        </div>
 	 </div>
     </section>
 	<div class="clear"></div>
@@ -196,7 +196,7 @@
 					Opera
 				</li>
 			</ul>
-        </div>  
+        </div>
 	 </div>
     </section>
 
@@ -214,12 +214,12 @@
 				<label>email</label><br/>
 				<a href="mailto:varsqlinfo@gmail.com">varsqlinfo@gmail.com</a>
 			</div>
-			
+
 			<div class="support-item">
 				<label>Q&A</label><br/>
 				<a href="https://github.com/varsqlinfo/varsql/issues" target="_blank">git 이슈</a>
 			</div>
-        </div>  
+        </div>
 	 </div>
 	</section>
 	<section id="license" class="section-area">
@@ -236,11 +236,11 @@
 				<label>프리웨어</label><br/>
 				 개인/기업/관공서/학교/회사/법인/가정/군부대/PC방 등 언제 어디서나 무료로 사용 가능함
 			</div>
-        </div>  
+        </div>
 	 </div>
     </section>
 
-	
+
 	<!--footer-->
 	<div id="footer">
 		<div class="container">
@@ -272,7 +272,7 @@ $(function (){
 			$('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
 			$('#mobile-body-overly').fadeOut();
 		}
-		
+
 		if(sEle.hasClass('menu-item')){
 			$('.menu-item.active').removeClass('active');
 			sEle.addClass('active');
@@ -281,7 +281,7 @@ $(function (){
 		var targetSelector = sEle.attr('data-target');
 
 		var movePos = $(targetSelector).offset().top;
-		
+
 		var topH = $('#gnb').outerHeight();
 
 		$('html').animate({
@@ -290,7 +290,7 @@ $(function (){
 
 		return false;
 	});
-	
+
 	$('.download-btn').on('click', function (){
 		var mode = $(this).attr('mode');
 
@@ -310,7 +310,7 @@ $(function (){
 			window.open("https://github.com/varsqlinfo/varsql/releases/latest","","");
 		}
 
-		
+
 
 		ga('send', 'event', 'main','button',sendInfo,1);
 
@@ -320,9 +320,9 @@ $(function (){
 		'value': 1
 		});
 	});
-	
+
 })
- 
+
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
