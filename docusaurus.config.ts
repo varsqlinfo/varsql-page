@@ -20,7 +20,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "varsqlinfo", // Usually your GitHub org/user name.
-  projectName: "varsql", // Usually your repo name.
+  projectName: "varsql-page", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -120,7 +120,7 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" }, // TODO
         {
           href: "https://github.com/varsqlinfo/varsql",
           label: "GitHub",
