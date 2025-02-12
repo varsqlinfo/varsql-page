@@ -24,4 +24,4 @@ sidebar_position: 2
 
 4. 브라우저 실행
 
-브라우저 실행 http://localhost:12312/vsql
+브라우저 실행 http://localhost:12312/varsql
