@@ -2,6 +2,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+import fs from "fs";
+import path from "path";
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -30,9 +33,36 @@ const config: Config = {
       require.resolve("docusaurus-lunr-search"),
       {
         //languages: ["en", "ko", "zh", "ja"], // language codes
-        languages: ["en"], // language codes
+        languages: ["en", "ko"], // language codes
+        lunr: {
+          // 한글을 처리하기 위한 옵션
+          stopWords: [
+            "의",
+            "이",
+            "가",
+            "은",
+            "는",
+            "를",
+            "에",
+            "과",
+            "와",
+            "도",
+          ], // 한글 불용어(stop words) 추가
+        },
       },
     ],
+    function myPlugin() {
+      return {
+        name: "add-cname-file",
+        postBuild() {
+          const cnameContent = "varsql.com"; // 여기에 원하는 도메인을 입력하세요
+          const cnameFilePath = path.join(__dirname, "build", "CNAME");
+
+          // CNAME 파일을 build 디렉토리에 작성
+          fs.writeFileSync(cnameFilePath, cnameContent, "utf8");
+        },
+      };
+    },
   ],
 
   // Even if you don't use internationalization, you can use this field to set
@@ -95,6 +125,18 @@ const config: Config = {
         },
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        sitemap: {
+          lastmod: "date",
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**", "/blog/**"],
+          filename: "sitemap.xml",
+          createSitemapItems: async (params) => {
+            const { defaultCreateSitemapItems, ...rest } = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes("/page/"));
+          },
         },
       } satisfies Preset.Options,
     ],
