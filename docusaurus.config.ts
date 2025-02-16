@@ -144,10 +144,21 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/varsql-main-bg.png",
     metadata: [
       { name: "keywords", content: "varsql, web db tool" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:url", content: "https://varsql.com/" },
+      { name: "twitter:title", content: "varsql, web db tool" },
+      {
+        name: "twitter:description",
+        content:
+          "DB client 프로그램 설치없이 웹으로 DB를 접속 하여 SQL을 실행 할 수 있는 어플리케이션",
+      },
+      {
+        name: "twitter:image",
+        content: "https://varsql.com/img/varsql-summary.gif",
+      },
     ],
     navbar: {
       title: "Varsql",

@@ -8,9 +8,9 @@ sidebar_position: 1
 
 - sql 쿼리 실행 및 쿼리 정리
 - mybatis 파라미터 지원 파라미터 예제 #\{a\}, $\{b\}
-- sql 자동생성
+- sql 자동생성(select,insert,delete,update)
 - table 관련 쿼리 또는 java bean을 템플릿을 등록해서 사용하는 기능
-- 사용자간 메시지 전달
+- 사용자간 쪽지 기능
 - sql 결과 값 상세보기, 다운로드
 - 컴포넌트 추가 기능 (용어집 , history)
 - 테이블 명세서 내보내기
@@ -19,7 +19,7 @@ sidebar_position: 1
 - 멀티 DB SQL 실행 기능
 - 데이터 import
 - 게시판 기능
-- 테이블 타 DB DDL로 변경기능
+- 테이블정보를  다른 DB DDL 내보내기 기능
 
 ## 매니저
 

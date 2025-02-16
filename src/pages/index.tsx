@@ -43,10 +43,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Main`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={`Main`} description="varsql db web tool">
       <HomepageHeader />
       <div className="container">
         <div className="row">
