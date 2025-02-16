@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvarsql_page=self.webpackChunkvarsql_page||[]).push([[8],{5375:a=>{a.exports=JSON.parse('{"tag":{"label":"docs","permalink":"/blog/tags/docs","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/docs","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
