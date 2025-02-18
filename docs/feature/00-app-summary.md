@@ -13,13 +13,14 @@ sidebar_position: 1
 - 사용자간 쪽지 기능
 - sql 결과 값 상세보기, 다운로드
 - 컴포넌트 추가 기능 (용어집 , history)
-- 테이블 명세서 내보내기
+- [테이블 명세서 내보내기](./user//01-table-spec-export.md)
 - DDL 내보내기
 - DDL 생성하기
 - 멀티 DB SQL 실행 기능
+- [전체 테이블 컬럼 조회](./user/03-table-all-column-search.md)
 - 데이터 import
 - 게시판 기능
-- 테이블정보를  다른 DB DDL 내보내기 기능
+- [테이블정보를 다른 DB DDL 내보내기 기능](./user/02-table-ddl-converter.md)
 
 ## 매니저
 
