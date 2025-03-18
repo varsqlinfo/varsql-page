@@ -13,7 +13,7 @@ sidebar_position: 1
 - 사용자간 쪽지 기능
 - sql 결과 값 상세보기, 다운로드
 - 컴포넌트 추가 기능 (용어집 , history)
-- [테이블 명세서 내보내기](./user//01-table-spec-export.md)
+- [테이블 명세서 내보내기](./user/01-table-spec-export.md)
 - [DDL 내보내기](./user/04-table-ddl-export.md)
 - DDL 생성하기
 - 멀티 DB SQL 실행 기능
@@ -28,7 +28,7 @@ sidebar_position: 1
 - DB 그룹 관리 & 사용자 관리
 - Q&A 관리
 - 용어집 관리
-- DB 비교
+- [DB 비교](./manager/01-db-diff.md)
 - DB 사용 통계 및 로그
 - 데이터 백업 관리
 - DDL 백업 관리
