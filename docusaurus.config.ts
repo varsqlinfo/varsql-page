@@ -70,24 +70,23 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "ko",
-    locales: ["ko"],
-    //locales: ["en", "fr", "ko", "zh", "ja"],
+    locales: ["ko", "en"],
+    path: "i18n",
+    //locales: ["en", "ko", "zh", "ja"],
     localeConfigs: {
-      en: {
-        htmlLang: "en-US",
-      },
       ko: {
         htmlLang: "ko",
+        path: "ko",
+      },
+      en: {
+        htmlLang: "en-US",
+        path: "en",
       },
       zh: {
         htmlLang: "zh-CN",
       },
       ja: {
         htmlLang: "ja",
-      },
-      // You can omit a locale (e.g. fr) if you don't need to override the defaults
-      fr: {
-        direction: "rtl",
       },
     },
   },
@@ -97,11 +96,12 @@ const config: Config = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          //routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
-        blog: {
+        blog: false /*{
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
@@ -122,7 +122,7 @@ const config: Config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
-        },
+        },*/,
         theme: {
           customCss: "./src/css/custom.css",
         },

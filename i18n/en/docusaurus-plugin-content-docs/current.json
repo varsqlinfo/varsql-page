@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.설치": {
+    "message": "설치",
+    "description": "The label for category 설치 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.설치.link.generated-index.description": {
+    "message": "설치 방법 소개",
+    "description": "The generated-index page description for category 설치 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기능 소개": {
+    "message": "기능 소개",
+    "description": "The label for category 기능 소개 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.사용자": {
+    "message": "사용자",
+    "description": "The label for category 사용자 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.매니저": {
+    "message": "매니저",
+    "description": "The label for category 매니저 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.문제 해결": {
+    "message": "문제 해결",
+    "description": "The label for category 문제 해결 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.문제 해결.link.generated-index.description": {
+    "message": "문제해결",
+    "description": "The generated-index page description for category 문제 해결 in sidebar tutorialSidebar"
+  }
+}
