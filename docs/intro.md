@@ -2,25 +2,24 @@
 sidebar_position: 1
 ---
 
-# 소개
+# Introduction
 
-개발자나 DBA 가 언제 어디서나 db client 설치 없이 웹으로 손쉽게 DB에 접근 해서 작업을 할 수 있게 하고,  반복적으로 작업하는 테이블 명세서나 코드를 손쉬게 생성할 수 있고 DB의 접근을 중앙에서 관리 함으로해서 DB의 보안을 높이기 위해서 개발함.
+It is developed to allow developers and DBAs to easily access and work on the database via the web without installing a DB client. It also enables the easy creation of repetitive tasks such as table specifications or code, and enhances database security by centrally managing database access.
 
+## Supported Databases
 
-## 지원 DATABASE
+- H2
+- MySQL
+- MariaDB
+- Oracle
+- SQL Server
+- PostgreSQL
+- CUBRID
+- Tibero
 
-* H2
-* MySQL
-* MariaDB
-* Oracle
-* SQL Server
-* PostgreSQL
-* CUBRID
-* Tibero
+## Supported Browsers
 
-## 지원 브라우저
-
-* Chrome
-* Edge
-* Firefox
-* Opera
+- Chrome
+- Edge
+- Firefox
+- Opera

@@ -1,6 +1,6 @@
 {
-  "label": "관리자",
-  "position": 3,
+  "label": "Manager",
+  "position": 2,
   "link": {
     "type": "generated-index"
   }

@@ -2,24 +2,24 @@
 sidebar_position: 3
 ---
 
-# 테이블 전체 컬럼 조회
+# View All Table Columns
 
-## 테이블 전체 컬럼 조회
+## View All Table Columns
 
 ![08dd20768c6d4d24c1c111c5616471fb.png](./img/08dd20768c6d4d24c1c111c5616471fb.png)
 
-도구-> 유틸리티 -> 테이블 컬럼 조회
+Go to Tools -> Utilities -> Click on Table Column Search
 
-## 정보입력
+## Input Information
 
 ![05c953c72f86e08e2a4c01a4f26df783.png](./img/05c953c72f86e08e2a4c01a4f26df783.png)
 
-- 스키마 : 조회할 스키마 선택
-- 검색 : 검색할 컬럼 입력후 조회
+- Schema: Select the schema to search
+- Search: Enter the column to search and click Search
 
-## 조회된 컬럼 다운로드
+## Download the Retrieved Columns
 
 ![67d3c871e1e1473840606256ef510bc6.png](./img/67d3c871e1e1473840606256ef510bc6.png)
 
-엑셀 다운로드 결과
+Excel download result
 ![a23c6712b50b301d475a359cb7c07053.png](./img/a23c6712b50b301d475a359cb7c07053.png)

@@ -9,9 +9,6 @@ import path from "path";
 
 const config: Config = {
   title: "Varsql",
-  tagline: `Varsql은 DB client 프로그램 설치없이 <br>
-				<span>웹으로</span> DB를 접속 하여<br>
-				SQL을 실행 할 수 있는 어플리케이션 입니다.`,
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -69,18 +66,18 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "ko",
-    locales: ["ko", "en"],
+    defaultLocale: "en",
+    locales: ["en", "ko"],
     path: "i18n",
     //locales: ["en", "ko", "zh", "ja"],
     localeConfigs: {
-      ko: {
-        htmlLang: "ko",
-        path: "ko",
-      },
       en: {
         htmlLang: "en-US",
         path: "en",
+      },
+      ko: {
+        htmlLang: "ko",
+        path: "ko",
       },
       zh: {
         htmlLang: "zh-CN",
@@ -146,14 +143,22 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/varsql-main-bg.png",
     metadata: [
-      { name: "keywords", content: "varsql, web db tool" },
+      {
+        name: "keywords",
+        content:
+          "varsql, web db tool, Easy SQL template generation, Easy table comparison",
+      },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:url", content: "https://varsql.com/" },
-      { name: "twitter:title", content: "varsql, web db tool" },
+      {
+        name: "twitter:title",
+        content:
+          "varsql, web db tool, Easy SQL template generation, Easy table comparison",
+      },
       {
         name: "twitter:description",
         content:
-          "DB client 프로그램 설치없이 웹으로 DB를 접속 하여 SQL을 실행 할 수 있는 어플리케이션",
+          "Varsql is an application that can execute SQL by connecting to a DB through the web without installing a DB client program",
       },
       {
         name: "twitter:image",

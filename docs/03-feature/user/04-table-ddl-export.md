@@ -2,32 +2,33 @@
 sidebar_position: 4
 ---
 
-# DDL 내보내기
+# Export DDL
 
-## DDL 내보내기
+## Export DDL
 
 ![f07ae96492b7bdbc6345137c2872172d.png](./img/f07ae96492b7bdbc6345137c2872172d.png)
-도구-> 내보내기 -> DDL
 
-## 내보내기 정보 입력
+Go to Tools -> Export -> DDL
+
+## Enter Export Information
 
 ![bae3a394802250f4aaaff59fe74dfad7.png](./img/bae3a394802250f4aaaff59fe74dfad7.png)
 
-- 파일명 : 내보내기 파일명 입력
+- File Name: Enter the name of the export file
 
-다음
+Click Next
 
-## 내보내기할 Object 선택
+## Select Objects to Export
 
 ![5e46f302a20f6fe15474f80cc57314cd.png](./img/5e46f302a20f6fe15474f80cc57314cd.png)
 
-다음
+Click Next
 
-## 내보내기 항목 선택
+## Select Export Items
 
 ![f0c2d5403f694e78b94bb655364709b8.png](./img/f0c2d5403f694e78b94bb655364709b8.png)
 
-완료
+Click Finish
 
-DDL 확인
+DDL
 ![e316a9dc720c96c10be8bf258a2d4afd.png](./img/e316a9dc720c96c10be8bf258a2d4afd.png)
