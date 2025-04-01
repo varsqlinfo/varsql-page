@@ -1,4 +1,22 @@
 {
+  "user": {
+    "message": "사용자"
+  },
+  "user.features.summary": {
+    "message": "DB CLIENT 설치없이 쉽게 DB에 SQL 을 실행 할 수 있음. 테이블 데이터(CSV, XML, JSON, INSERT SQL) 내보내기 가능. 테이블 정의서 내보내기 기능"
+  },
+  "manager": {
+    "message": "매니저"
+  },
+  "manager.features.summary": {
+    "message": "쉽게 사용자에게 권한을 부여할 수 있음. 사용자 사용 로그 확인 가능. 용어집 관리"
+  },
+  "administrator": {
+    "message": "관리자"
+  },
+  "administrator.features.summary": {
+    "message": "DB 커넥션 정보와 커넥션 풀을 관리 할 수 있음"
+  },
   "main.page.varsql.descriptions": {
     "message": "Varsql은 DB client 프로그램 설치없이 <br> <span>웹으로</span> DB를 접속 하여<br> SQL을 실행 할 수 있는 어플리케이션 입니다."
   },

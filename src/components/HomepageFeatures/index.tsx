@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import Translate, { translate } from "@docusaurus/Translate";
 
 type FeatureItem = {
   title: string;
@@ -10,29 +11,19 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "사용자 기능",
+    title: translate({ id: "user" }),
     Svg: require("@site/static/img/varsql-user.svg").default,
-    description: (
-      <>
-        DB CLIENT 설치없이 쉽게 DB에 SQL 을 실행 할 수 있음. 테이블 데이터(CSV,
-        XML, JSON, INSERT SQL) 내보내기 가능. 테이블 정의서 내보내기 기능
-      </>
-    ),
+    description: <>{translate({ id: "user.features.summary" })}</>,
   },
   {
-    title: "매니저 기능",
+    title: translate({ id: "manager" }),
     Svg: require("@site/static/img/varsql-manage.svg").default,
-    description: (
-      <>
-        쉽게 사용자에게 권한을 부여할 수 있음. 사용자 사용 로그 확인 가능.
-        용어집 관리
-      </>
-    ),
+    description: <>{translate({ id: "manager.features.summary" })}</>,
   },
   {
-    title: "관리자 기능",
+    title: translate({ id: "administrator" }),
     Svg: require("@site/static/img/varsql-admin.svg").default,
-    description: <>DB 커넥션 정보와 커넥션 풀을 관리 할 수 있음.</>,
+    description: <>{translate({ id: "administrator.features.summary" })}</>,
   },
 ];
 

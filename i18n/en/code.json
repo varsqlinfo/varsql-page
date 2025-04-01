@@ -1,4 +1,22 @@
 {
+  "user": {
+    "message": "User"
+  },
+  "user.features.summary": {
+    "message": "You can easily execute SQL on DB without installing DB CLIENT. Export table data (CSV, XML, JSON, INSERT SQL) is possible. Table definition export function"
+  },
+  "manager": {
+    "message": "Manager"
+  },
+  "manager.features.summary": {
+    "message": "You can easily grant permissions to users. You can check user usage logs. Glossary management"
+  },
+  "administrator": {
+    "message": "Administrator"
+  },
+  "administrator.features.summary": {
+    "message": "You can manage DB connection information and connection pool"
+  },
   "main.page.varsql.descriptions": {
     "message": "Varsql is an application that can execute SQL by connecting to a DB <br> <span>through the web</span> without installing a DB client program."
   },

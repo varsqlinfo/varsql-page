@@ -9,13 +9,16 @@ import Translate, { translate } from "@docusaurus/Translate";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const mainDesc = translate({ id: "main.page.varsql.descriptions" });
   return (
     <header className={clsx(styles.heroBanner)}>
       <div className="container">
         <div className={styles["intro-bg"]}></div>
         <div className={styles["intro-content"]}>
-          <h2 dangerouslySetInnerHTML={{ __html: mainDesc }}></h2>
+          <h2
+            dangerouslySetInnerHTML={{
+              __html: translate({ id: "main.page.varsql.descriptions" }),
+            }}
+          ></h2>
         </div>
 
         <div className={styles["intro-button"]}>
