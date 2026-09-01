@@ -8,7 +8,26 @@ sidebar_position: 2
 
 2. Extract the zip file.
 
-3. Go to the folder [extracted_folder]/varsql-app-\[latest_version]/bin
+3. Move to the `[extracted folder]/varsql-app-[latest version]/bin` folder.
+
+4. If the Java version installed by default on your local system is not compatible with the Java version required by varsql, download and install a new Java version, then configure the path.
+   If you want to use the default Java, proceed to step 5.
+
+- For Windows
+
+```c
+Open the setenv.bat file and remove the comment (`rem`).
+Set the JAVA_HOME path.
+```
+
+- For Linux
+
+```c
+Open the setenv.sh file and remove the comment (`#`).
+Set the JAVA_HOME path.
+```
+
+5. Start
 
 - For Windows
 
@@ -22,6 +41,6 @@ startup.bat <-- Click
 ./startup.sh
 ```
 
-4. Open the browser
+6. Open the browser
 
 Open the browser at http://localhost:12312/varsql
