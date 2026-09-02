@@ -13,7 +13,7 @@
               el.addEventListener("click", (e) => {
                 localStorage.setItem(
                   USER_LANG_KEY,
-                  el.getAttribute("lang").split("-")[0]
+                  el.getAttribute("lang").split("-")[0],
                 );
               });
             });
@@ -55,6 +55,6 @@
   }
 
   window.addEventListener("load", function () {
-    //initDefaultLang();
+    initDefaultLang();
   });
 })();
